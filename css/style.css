@@ -1,0 +1,285 @@
+/* HEADER */
+
+header {
+  /* background-color: #eff4fa; */
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-size: cover;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+  padding: 0 8rem;
+}
+
+.header-logo {
+  height: 2.4rem;
+}
+
+.btn-a:link,
+.btn-a:visited {
+  display: inline-block;
+  background-color: #fff;
+  padding: 1.6rem 6.4rem;
+  color: #00252e;
+  border-radius: 18px;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.btn-a:hover,
+.btn-a:active {
+  color: #b3b3b3;
+}
+
+/* main-section */
+.main-section {
+  padding: 8rem;
+  /* background-color: #eff4fa; */
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-size: cover;
+}
+.main {
+  max-width: 130rem;
+}
+
+.main-header {
+  margin-top: 8rem;
+}
+
+.main-header-p {
+  font-size: 5.2rem;
+  font-weight: 600;
+  color: #00252e;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  margin-bottom: 4.8rem;
+}
+
+.main-description-p {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #293f59;
+  margin-bottom: 2.4rem;
+}
+
+.main-btn-a:link,
+.main-btn-a:visited {
+  display: inline-block;
+  background-color: #fe52c0;
+  padding: 2rem 7rem;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.main-btn-a:hover,
+.main-btn-a:active {
+  background-color: #e54aad;
+}
+
+.main-img {
+  width: 100%;
+}
+
+/* BOX SECTION */
+
+.box-section {
+  margin-bottom: 30rem;
+}
+
+.box {
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.07);
+  height: 45rem;
+  border-radius: 11px;
+  margin-bottom: 6.4rem;
+}
+
+.box1 {
+  padding-top: 6.4rem;
+  margin-left: 6.4rem;
+  gap: 25rem;
+  
+}
+
+.box-text {
+  margin-top: 11rem;
+}
+
+.box-heading-p {
+  font-size: 3.6rem;
+  color: #00252e;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+  letter-spacing: -0.5px;
+}
+
+.box-p-p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #888;
+}
+
+.box-img {
+  width: 100%;
+}
+
+/* FOOTER */
+.footer {
+  padding: 12.8rem 0 6.4rem 0;
+  background-color: #00252e;
+  position: relative;
+}
+
+.box-footer {
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.2);
+
+  border-radius: 11px;
+  background-color: #fff;
+  text-align: center;
+
+  width: 80rem;
+  height: 28rem;
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box-footer p {
+  color: #00252e;
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-top: 6.4rem;
+  margin-bottom: 4.8rem;
+  letter-spacing: -0.5px;
+}
+
+.box-footer-btn {
+  padding: 3rem 11rem !important;
+}
+
+
+.footer-list {
+  padding-top: 6.4rem;
+}
+
+.footer-logo {
+  filter: brightness(10000%);
+  margin-bottom: 4.8rem;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  gap: 13rem;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.mail,
+.phone {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.address {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 0;
+  
+}
+
+.address ion-icon {
+  display: inline-block;
+  height: 6.4rem;
+  width: 6.4rem;
+  color: #cfcfcf;
+  align-items: self-start !important;
+}
+
+.mail ion-icon,
+.phone ion-icon {
+  display: inline-block;
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #cfcfcf;
+}
+
+.address p,
+.phone a,
+.mail a {
+  font-size: 1.6rem;
+  color: #cfcfcf;
+  line-height: 1.8;
+}
+
+.links1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-links1:link,
+.footer-links1:visited {
+  color: #cfcfcf;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.footer-links1:hover,
+.footer-links1:active {
+  color: #b3b3b3;
+}
+
+.social-links{
+  display: flex;
+  
+  gap: 1.6rem;
+}
+
+.social-links ion-icon{
+  color: #cfcfcf;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.8rem;
+}
+
+/* .social-links:hover{
+  color:#fe52c0;
+
+} */
+
+.face,
+.insta,
+.twitter{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #cfcfcf ;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+
+.face:hover,
+.insta:hover,
+.twitter:hover{
+  color: #fe52c0;
+  border: 1px solid #fe52c0 ;
+}
